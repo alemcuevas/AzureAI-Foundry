@@ -16,7 +16,7 @@ En este primer laboratorio configuraremos el entorno inicial en Azure AI Studio 
 - Suscripción activa de Azure.
 - Permisos de **Owner** o **Contributor** sobre la suscripción.
 - Rol habilitado para el uso de Azure AI Studio (AI Foundry está en Public Preview pero requiere habilitación de región).
-- Acceso a la región donde esté disponible AI Foundry (por ejemplo: `East US`, `Sweden Central`, `France Central`).
+- Acceso a la región donde esté disponible AI Foundry (por ejemplo: `East US`).
 
 ---
 
