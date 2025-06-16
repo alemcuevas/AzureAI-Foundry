@@ -1,4 +1,4 @@
-# Laboratorio 2 - Track Document Intelligence: Integración de Document Intelligence con AI Foundry via Tool
+# Laboratorio 2 - Integración de Document Intelligence con AI Foundry via Tool
 
 ## Objetivo
 
