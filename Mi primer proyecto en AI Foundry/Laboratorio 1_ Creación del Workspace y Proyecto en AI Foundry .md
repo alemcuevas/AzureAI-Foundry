@@ -110,12 +110,13 @@ En este primer laboratorio configuraremos el entorno inicial en Azure AI Studio 
 
 ![image](https://github.com/user-attachments/assets/35065226-ec7b-4af0-8847-51b7e0883a5b)
 
+![image](https://github.com/user-attachments/assets/9b74c8d3-bb90-4017-8b03-0c40513740ee)
 
 ---
 
 ## Paso 5 - Validación de modelos disponibles
 
-1. Dentro del Project, selecciona **Foundation Models**.
+1. Dentro del Project, selecciona **Models + endpoints**.
 
 2. Valida la disponibilidad de los modelos habilitados para la suscripción:
 
@@ -128,6 +129,19 @@ En este primer laboratorio configuraremos el entorno inicial en Azure AI Studio 
 > **Nota:** Algunos modelos requieren aprobación previa dentro del tenant.
 
 3. Asegúrate de que **GPT-4o** aparece habilitado como modelo disponible.
+
+![image](https://github.com/user-attachments/assets/27f9787a-c488-497d-915c-ffad0c361f2d)
+
+![image](https://github.com/user-attachments/assets/3511455e-520e-41c6-9ce5-66d3ef0681de)
+
+![image](https://github.com/user-attachments/assets/03934622-ecb3-4732-a6e6-6c6590e4e235)
+
+![image](https://github.com/user-attachments/assets/a9b3a6bf-7bd1-4cca-951d-2bc2bd164d51)
+
+![image](https://github.com/user-attachments/assets/49ac2cc8-8ac2-4316-a52b-1211e4755707)
+
+![image](https://github.com/user-attachments/assets/0121f158-2303-4627-a3eb-3a8d27657488)
+
 
 ---
 
