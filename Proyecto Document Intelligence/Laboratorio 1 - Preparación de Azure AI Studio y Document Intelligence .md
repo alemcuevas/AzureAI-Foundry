@@ -1,4 +1,4 @@
-# Laboratorio 1 - Track Document Intelligence: Preparación de Azure AI Studio y Document Intelligence
+# Laboratorio 1 - Preparación de Azure AI Studio y Document Intelligence
 
 ## Objetivo
 
