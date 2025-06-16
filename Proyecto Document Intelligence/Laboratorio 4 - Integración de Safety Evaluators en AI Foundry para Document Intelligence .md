@@ -1,4 +1,4 @@
-# Laboratorio 4 - Track Document Intelligence: Integración de Safety Evaluators en AI Foundry para Document Intelligence
+# Laboratorio 4 - Integración de Safety Evaluators en AI Foundry para Document Intelligence
 
 ## Objetivo
 
