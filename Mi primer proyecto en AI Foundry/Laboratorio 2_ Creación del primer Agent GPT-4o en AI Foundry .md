@@ -114,6 +114,18 @@ No configuraremos Memories, Tools ni Safety Evaluators aún (se abordarán en si
 
 Haz clic en **Create Agent** para finalizar.
 
+![image](https://github.com/user-attachments/assets/63ae34f9-b4c4-41ed-82b2-b0845e28b2b2)
+
+![image](https://github.com/user-attachments/assets/82f6c38a-eeac-45f9-b4fb-e01dd15c2f5d)
+
+![image](https://github.com/user-attachments/assets/eee1e29e-ca19-4bfc-adbc-f05b698bbec4)
+
+![image](https://github.com/user-attachments/assets/c7cc3643-c611-4206-a282-6d6106f50f2a)
+
+![image](https://github.com/user-attachments/assets/3ebee4bc-8af4-4eb0-9b57-0ef19727b3ed)
+
+![image](https://github.com/user-attachments/assets/ef7a4f88-2fb4-42b0-997c-f4b401c7a241)
+
 ## Paso 5 - Pruebas iniciales de ejecución
 
 Una vez creado el Agent, selecciona **Test Agent**.
