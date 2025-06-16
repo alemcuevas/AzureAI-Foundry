@@ -36,6 +36,14 @@ En este primer laboratorio configuraremos el entorno inicial en Azure AI Studio 
 
 ## Paso 2 - Creación del Workspace de AI Studio
 
+![image](https://github.com/user-attachments/assets/f7c1e8ba-c595-4eca-87d0-14111e6f93c3)
+
+![image](https://github.com/user-attachments/assets/8e0d1dd3-86ca-4420-a593-bbbf5217d25c)
+
+![image](https://github.com/user-attachments/assets/1a71258c-c8d0-43a9-b881-f30464d68636)
+
+
+
 1. En Azure AI Studio selecciona **Create workspace**.
 
 2. Completa los siguientes campos:
@@ -45,13 +53,19 @@ En este primer laboratorio configuraremos el entorno inicial en Azure AI Studio 
 - **Workspace name:**  
   `ws-usuario-ai-#`
 - **Region:**  
-  Selecciona una región donde AI Foundry esté disponible (ejemplo: `East US` o `South Central US`).
+  Selecciona una región donde AI Foundry esté disponible (ejemplo: `East US`).
 
 3. Revisa las configuraciones de red (puedes dejar red pública para el laboratorio inicial).
 
 4. Haz clic en **Review + Create** y confirma la creación.
 
 > La creación del workspace puede tomar algunos minutos.
+
+![image](https://github.com/user-attachments/assets/1f6bd3d2-27d8-4645-9eb2-e4f346a072a1)
+
+![image](https://github.com/user-attachments/assets/4867663b-6b06-4185-941e-0d07bad5174c)
+
+![image](https://github.com/user-attachments/assets/3870065c-0833-4b18-8e71-c57f7cd04ae7)
 
 ---
 
