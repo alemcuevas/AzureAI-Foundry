@@ -1,4 +1,4 @@
-# Laboratorio 3 - Track Document Intelligence: Integración del Tool dentro de un Reasoning Plan en AI Foundry
+# Laboratorio 3 - Integración del Tool dentro de un Reasoning Plan en AI Foundry
 
 ## Objetivo
 
