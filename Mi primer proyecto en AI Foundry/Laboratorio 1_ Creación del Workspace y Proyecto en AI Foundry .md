@@ -1,0 +1,139 @@
+# Laboratorio 1: Creación del Workspace y Proyecto en AI Foundry
+
+## Objetivo
+
+En este primer laboratorio configuraremos el entorno inicial en Azure AI Studio para trabajar con AI Foundry, incluyendo:
+
+- Creación del Workspace de Azure AI Studio.
+- Creación del primer Project dentro del Workspace.
+- Validación de disponibilidad de modelos foundation.
+- Confirmación de acceso al modelo GPT-4o.
+
+---
+
+## Prerrequisitos
+
+- Suscripción activa de Azure.
+- Permisos de **Owner** o **Contributor** sobre la suscripción.
+- Rol habilitado para el uso de Azure AI Studio (AI Foundry está en Public Preview pero requiere habilitación de región).
+- Acceso a la región donde esté disponible AI Foundry (por ejemplo: `East US`, `Sweden Central`, `France Central`).
+
+---
+
+## Paso 1 - Acceso a Azure AI Studio
+
+1. Inicia sesión en el portal de Azure:  
+   https://portal.azure.com
+
+2. Abre el servicio **Azure AI Studio**:  
+   https://ai.azure.com
+
+3. Valida que puedes acceder al panel principal de Azure AI Studio.
+
+> Si no aparece la opción de AI Foundry, valida que el servicio esté habilitado para la suscripción y región.
+
+---
+
+## Paso 2 - Creación del Workspace de AI Studio
+
+1. En Azure AI Studio selecciona **Create workspace**.
+
+2. Completa los siguientes campos:
+
+- **Subscription:** Selecciona la suscripción correcta.
+- **Resource Group:** Puedes crear uno nuevo o usar uno existente (ejemplo: `rg-usuario-ai-#`).
+- **Workspace name:**  
+  `ws-usuario-ai-#`
+- **Region:**  
+  Selecciona una región donde AI Foundry esté disponible (ejemplo: `East US` o `South Central US`).
+
+3. Revisa las configuraciones de red (puedes dejar red pública para el laboratorio inicial).
+
+4. Haz clic en **Review + Create** y confirma la creación.
+
+> La creación del workspace puede tomar algunos minutos.
+
+---
+
+## Paso 3 - Acceso al Workspace
+
+1. Una vez creado el workspace, selecciona **Go to resource**.
+
+2. Dentro del workspace, accede al menú de **AI Foundry (Preview)**.
+
+3. Valida que puedes acceder al portal de AI Foundry dentro de AI Studio.
+
+---
+
+## Paso 4 - Creación del Proyecto AI Foundry
+
+1. Dentro del workspace, navega a **Foundry → Projects**.
+
+2. Haz clic en **New Project**.
+
+3. Completa los siguientes datos:
+
+- **Project name:**  
+  `ai-foundry-lab-project`
+- **Description (opcional):**  
+  `Proyecto inicial de laboratorio AI Foundry`
+- **Tags:**  
+  Puedes agregar etiquetas como `environment:lab` o `workshop:foundry`.
+
+4. Confirma la creación del proyecto.
+
+---
+
+## Paso 5 - Validación de modelos disponibles
+
+1. Dentro del Project, selecciona **Foundation Models**.
+
+2. Valida la disponibilidad de los modelos habilitados para la suscripción:
+
+- `gpt-4o`
+- `gpt-4-turbo`
+- `gpt-35-turbo`
+- `phi-3`
+- `vision models` (si aplica)
+
+> **Nota:** Algunos modelos requieren aprobación previa dentro del tenant.
+
+3. Asegúrate de que **GPT-4o** aparece habilitado como modelo disponible.
+
+---
+
+## Paso 6 - Validación de permisos RBAC
+
+1. Dentro de Azure AI Studio, accede a la configuración del Workspace.
+
+2. Verifica los roles asignados:
+
+- AI Studio Owner
+- AI Studio Contributor
+- AI Studio Reader
+
+3. Valida que tienes permisos para:
+
+- Crear Projects.
+- Crear Agents.
+- Configurar evaluadores de seguridad.
+
+---
+
+## Resultado esperado
+
+Al finalizar este laboratorio debes tener:
+
+- Un workspace de AI Studio creado y funcional.
+- Un primer proyecto de AI Foundry listo para la creación de agents.
+- Acceso confirmado a los Foundation Models habilitados.
+- Permisos correctos para continuar con los siguientes laboratorios.
+
+---
+
+## Links de referencia
+
+- [Azure AI Studio Overview](https://learn.microsoft.com/en-us/azure/ai-studio/overview)
+- [AI Foundry Projects](https://learn.microsoft.com/en-us/azure/ai-studio/foundry/projects)
+- [Azure AI Studio - Roles y permisos](https://learn.microsoft.com/en-us/azure/ai-studio/roles-permissions)
+
