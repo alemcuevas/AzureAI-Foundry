@@ -64,6 +64,45 @@ Puedes dejar los parámetros por default para este primer ejercicio:
 
 > Nota: Estos parámetros podrán ajustarse en futuros laboratorios para modificar el comportamiento del reasoning.
 
+## ¿Qué es Temperature y Top P?
+
+### **Temperature**
+
+El parámetro **temperature** controla el nivel de aleatoriedad y creatividad en las respuestas generadas por el modelo.
+
+- Valores bajos (por ejemplo: 0.1 - 0.3):  
+  - Salidas más predecibles, conservadoras y repetitivas.
+  - Útil en escenarios donde se requiere precisión y consistencia.
+  - Ejemplos: agentes financieros, legales, cumplimiento.
+
+- Valores altos (por ejemplo: 0.7 - 1.0):  
+  - Salidas más variadas, creativas y diversas.
+  - Útil para generación de ideas, brainstorming, escritura creativa.
+  - Ejemplos: generación de contenidos, asistentes de redacción.
+
+### **Top P (nucleus sampling)**
+
+El parámetro **top_p** controla el rango de probabilidad acumulada de tokens que el modelo considerará al generar la siguiente palabra.
+
+- **Top P = 1.0**:  
+  - El modelo considera todo el espacio de probabilidad (sin filtrado).
+  - Equivalente a no aplicar truncamiento probabilístico.
+
+- **Top P < 1.0** (por ejemplo: 0.8):  
+  - El modelo solo considera las opciones más probables que sumen hasta el porcentaje indicado.
+  - Permite limitar respuestas demasiado improbables.
+  - Combinado con temperature, controla la diversidad manteniendo coherencia.
+
+> **Nota:**  
+> En la mayoría de los escenarios enterprise, se recomienda partir con:
+> 
+> - **Temperature:** 0.3 a 0.7  
+> - **Top P:** 0.8 a 1.0
+
+Así se mantiene un balance adecuado entre control, precisión y algo de flexibilidad en el lenguaje.
+
+![image](https://github.com/user-attachments/assets/ce9e1d95-ea57-4460-a6ce-11148fd45557)
+
 ## Paso 4 - Configuración básica de Inputs & Outputs
 
 En este primer Agent, dejamos los parámetros básicos:
