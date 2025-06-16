@@ -77,9 +77,13 @@ En este primer laboratorio configuraremos el entorno inicial en Azure AI Studio 
 
 1. Una vez creado el workspace, selecciona **Go to resource**.
 
-2. Dentro del workspace, accede al menú de **AI Foundry (Preview)**.
+2. Dentro del workspace, accede al menú de **Explore Azure AI Foundry portal**.
 
 3. Valida que puedes acceder al portal de AI Foundry dentro de AI Studio.
+
+![image](https://github.com/user-attachments/assets/b48d447d-9f06-4a3d-a049-ca354e6a4b10)
+
+![image](https://github.com/user-attachments/assets/35a4d100-7ad8-47b7-ba39-081a541a13d4)
 
 ---
 
@@ -92,13 +96,20 @@ En este primer laboratorio configuraremos el entorno inicial en Azure AI Studio 
 3. Completa los siguientes datos:
 
 - **Project name:**  
-  `ai-foundry-lab-project`
+  `ai-foundry-lab-project-#`
 - **Description (opcional):**  
   `Proyecto inicial de laboratorio AI Foundry`
 - **Tags:**  
   Puedes agregar etiquetas como `environment:lab` o `workshop:foundry`.
 
 4. Confirma la creación del proyecto.
+
+![image](https://github.com/user-attachments/assets/96311e00-7695-478d-ac54-a4b50ab33210)
+
+![image](https://github.com/user-attachments/assets/4fbb8469-1ede-4468-a6ee-87f908acd74a)
+
+![image](https://github.com/user-attachments/assets/35065226-ec7b-4af0-8847-51b7e0883a5b)
+
 
 ---
 
