@@ -67,6 +67,10 @@ En este primer laboratorio configuraremos el entorno inicial en Azure AI Studio 
 
 ![image](https://github.com/user-attachments/assets/3870065c-0833-4b18-8e71-c57f7cd04ae7)
 
+![image](https://github.com/user-attachments/assets/ba227055-5835-4aeb-b8dd-ef0aed3d7640)
+
+![image](https://github.com/user-attachments/assets/c109d725-1548-43c7-9d8e-7c1e8fd72ea6)
+
 ---
 
 ## Paso 3 - Acceso al Workspace
