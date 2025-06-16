@@ -36,12 +36,16 @@ El Agent podrá recibir prompts, ejecutar reasoning básico y entregar respuesta
 3. Completa los campos básicos:
 
 - **Agent Name:**  
-  `primer-agent-gpt4o`
+  `primer-agent-gpt4o-usuario-1`
 - **Description (opcional):**  
   `Primer agente de laboratorio utilizando GPT-4o`
 - **Objective (System Prompt):**  
   ```markdown
   Eres un agente de IA financiero. Respondes preguntas de forma precisa, objetiva, profesional y basada en datos. Si no sabes la respuesta, indicas que no tienes suficiente información.
+
+![image](https://github.com/user-attachments/assets/6d74a497-f377-476c-b242-3a814bfdd460)
+
+![image](https://github.com/user-attachments/assets/1ee50fea-5213-494b-898d-afb917796da2)
 
 4. Haz clic en **Next** para continuar la configuración.
 
