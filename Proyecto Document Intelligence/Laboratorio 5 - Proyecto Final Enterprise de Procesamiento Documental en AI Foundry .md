@@ -1,4 +1,4 @@
-# Laboratorio 5 - Track Document Intelligence: Proyecto Final Enterprise de Procesamiento Documental en AI Foundry
+# Laboratorio 5 - Proyecto Final Enterprise de Procesamiento Documental en AI Foundry
 
 ## Objetivo
 
