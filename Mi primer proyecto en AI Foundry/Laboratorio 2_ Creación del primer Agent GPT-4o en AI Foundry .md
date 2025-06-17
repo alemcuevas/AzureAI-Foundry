@@ -137,11 +137,31 @@ Observa las respuestas generadas.
 
 Valida los logs de reasoning generados por el agente.
 
+![image](https://github.com/user-attachments/assets/078039c4-00f9-4e52-bbfc-f67d9bc116fd)
+
+![image](https://github.com/user-attachments/assets/e839fbed-bd47-4121-a559-44942619f555)
+
+![image](https://github.com/user-attachments/assets/4721cc70-4d1a-4ea4-b4cf-dec75b0fd123)
+
+![image](https://github.com/user-attachments/assets/78681b6d-024f-40f3-860e-44ac7db8be2b)
+
+![image](https://github.com/user-attachments/assets/1ec68f71-22a5-406c-8646-565526b6a9bf)
+
+![image](https://github.com/user-attachments/assets/e9a69f1d-0f78-4984-b954-37a6c9b83c4b)
+
+![image](https://github.com/user-attachments/assets/6496eae7-8aa3-4b3d-bf6b-4d0ad229646a)
+
+
 ## Paso 6 - Análisis del comportamiento del reasoning
 
 - Observa si el agente sigue las instrucciones definidas en el **Objective (System Prompt)**.
 - Verifica si responde de forma profesional, objetiva y precisa.
 - Toma nota de posibles ajustes de prompting o parámetros para mejorar en labs posteriores.
+
+![image](https://github.com/user-attachments/assets/0b13f70a-a046-40db-bd84-6d23c25fa6f9)
+
+![image](https://github.com/user-attachments/assets/20ab40aa-ebc5-4238-b5e4-eb76deed07e9)
+
 
 ## Resultado esperado
 
