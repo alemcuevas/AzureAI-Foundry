@@ -23,21 +23,48 @@ En este laboratorio aprenderemos a crear y configurar un Tool nativo (Action) pa
 - Haz clic en el botón **+ Add**.
 - En el panel lateral que se abre, selecciona el tipo de acción: **REST API**.
 
-### Paso 3 - Configurar el Tool REST
+![image](https://github.com/user-attachments/assets/cc96bbdc-37d8-43e6-9051-0fb686603761)
 
-Completa los siguientes campos:
+![image](https://github.com/user-attachments/assets/52ffae6e-1912-42a3-9ce2-4241dac97c17)
 
-- **Name:** `obtener_tasa_cambio`
-- **Description:** `Consulta la tasa de cambio del dólar respecto a otras monedas.`
-- **Method:** `GET`
-- **URL:** `https://api.exchangerate.host/latest?base=USD`
-- **Authentication:** `None` (para este ejemplo)
-- **Response format:** JSON
+### Paso 3 - Subir el archivo OpenAPI
 
-No es necesario definir parámetros de entrada si no vas a cambiar la moneda base o destino dinámicamente. En caso de hacerlo, puedes usar parámetros como `base` y `symbols`.
+- Sube tu archivo OpenAPI con la definición del endpoint REST que deseas invocar.
+- Por ejemplo, puedes utilizar la siguiente definición para una API pública de tasas de cambio:
 
-Haz clic en **Save** para guardar la Action.
-
+```yaml
+openapi: 3.0.0
+info:
+  title: Exchange Rate API
+  version: 1.0.0
+paths:
+  /latest:
+    get:
+      summary: Get latest exchange rates
+      description: Returns the latest exchange rates based on the USD.
+      parameters:
+        - in: query
+          name: base
+          schema:
+            type: string
+          required: false
+          description: Base currency (default is USD)
+        - in: query
+          name: symbols
+          schema:
+            type: string
+          required: false
+          description: Target currency symbols (comma-separated)
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+```
+- Esta definición puede guardarse como exchange-rate-openapi.yaml.
+  
 ### Paso 4 - Verificar que la Action se haya agregado
 
 - Regresa a la sección **Actions** del agente.
@@ -49,6 +76,14 @@ Haz clic en **Save** para guardar la Action.
 - Escribe una pregunta como:  
   `¿Cuál es la tasa de cambio actual del dólar al euro?`
 - El agente debería ejecutar la Action y responder con la información obtenida de la API.
+
+> Antes
+
+![image](https://github.com/user-attachments/assets/433dd8dd-5b28-4934-8feb-9136984315bf)
+
+>Después
+
+
 
 ## Consideraciones adicionales
 
