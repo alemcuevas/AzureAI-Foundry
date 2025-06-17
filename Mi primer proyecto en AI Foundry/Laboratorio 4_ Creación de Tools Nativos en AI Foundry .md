@@ -71,6 +71,8 @@ paths:
 - Asegúrate de que el endpoint `/latest` esté habilitado para que el agente lo utilice.
 - Guarda la configuración.
 
+![image](https://github.com/user-attachments/assets/20528a8a-997f-4031-b01f-5bf6f4f15140)
+
 ### Paso 5 - Validar el uso del Tool en el Playground
 
 - Haz clic en **Try in playground**.
