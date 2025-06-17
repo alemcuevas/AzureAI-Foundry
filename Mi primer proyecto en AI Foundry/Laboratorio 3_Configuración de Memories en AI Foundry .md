@@ -27,6 +27,10 @@ En este laboratorio aprenderemos a configurar la memoria vectorial (Knowledge) d
 - Dentro de la pantalla de configuración del agente, localizar la sección Knowledge.
 - Hacer clic en + Add para agregar un nuevo vector store.
 
+![image](https://github.com/user-attachments/assets/9b9b1ca9-f0f6-4208-bbfb-62fb34cd2f77)
+
+![image](https://github.com/user-attachments/assets/33d4369b-3eb0-4962-b6f8-7eae8d580424)
+
 ### Paso 3 - Crear o asociar el Vector Store
 
 - Seleccionar uno de los Vector Stores previamente configurados en el proyecto (por ejemplo: Azure AI Search, Blob Storage + Embeddings, Cosmos DB vector, etc.)
@@ -42,6 +46,12 @@ En este laboratorio aprenderemos a configurar la memoria vectorial (Knowledge) d
 - Subir archivos de datos (PDF, TXT, DOCX, JSON).
 - El sistema realizará el chunking y la indexación automática utilizando el embedding model configurado.
 - Validar que los documentos hayan sido cargados correctamente.
+
+![image](https://github.com/user-attachments/assets/3f778bd8-24ae-47bd-ae34-b86781761cd1)
+
+![image](https://github.com/user-attachments/assets/03111f45-b7eb-4c13-8b54-1a0986cab071)
+
+![image](https://github.com/user-attachments/assets/4094bf6a-e569-4cac-a152-89e267b93ad6)
 
 ### Paso 5 - Asociar el Vector Store al agente
 
