@@ -158,6 +158,8 @@ Valida los logs de reasoning generados por el agente.
 - Verifica si responde de forma profesional, objetiva y precisa.
 - Toma nota de posibles ajustes de prompting o parámetros para mejorar en labs posteriores.
 
+![image](https://github.com/user-attachments/assets/7edfcfc2-bf0a-43e6-a782-86cc33dd9e0a)
+
 ![image](https://github.com/user-attachments/assets/0b13f70a-a046-40db-bd84-6d23c25fa6f9)
 
 ![image](https://github.com/user-attachments/assets/20ab40aa-ebc5-4238-b5e4-eb76deed07e9)
