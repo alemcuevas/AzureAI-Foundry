@@ -107,9 +107,6 @@ Así se mantiene un balance adecuado entre control, precisión y algo de flexibi
 
 En este primer Agent, dejamos los parámetros básicos:
 
-- **Input Type:** Text
-- **Output Type:** Text
-
 No configuraremos Memories, Tools ni Safety Evaluators aún (se abordarán en siguientes labs).
 
 Haz clic en **Create Agent** para finalizar.
