@@ -1,4 +1,4 @@
-# Laboratorio 4: Creación de Tools Nativos en AI Foundry 
+# Laboratorio 4: Creación de Tools Nativos en AI Foundry
 
 ## Objetivo
 
@@ -110,6 +110,10 @@ En este laboratorio aprenderemos a crear y configurar un Tool nativo (Action) pa
 - Guarda la configuración.
 
 ![image](https://github.com/user-attachments/assets/20528a8a-997f-4031-b01f-5bf6f4f15140)
+
+![image](https://github.com/user-attachments/assets/78eb3d72-cace-4b90-a272-cf08cd847742)
+
+![image](https://github.com/user-attachments/assets/68153efe-02a3-4257-a0bc-173041d2dfd9)
 
 ### Paso 5 - Validar el uso del Tool en el Playground
 
