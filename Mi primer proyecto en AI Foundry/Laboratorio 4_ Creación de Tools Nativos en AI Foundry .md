@@ -65,10 +65,11 @@ paths:
 ```
 - Esta definición puede guardarse como exchange-rate-openapi.yaml.
   
-### Paso 4 - Verificar que la Action se haya agregado
+### Paso 4 - Configurar el Tool
 
-- Regresa a la sección **Actions** del agente.
-- Verifica que aparezca la Action `obtener_tasa_cambio` en la lista.
+- Una vez subido el archivo, asigna un nombre descriptivo al Tool, por ejemplo: `obtener_tasa_cambio`.
+- Asegúrate de que el endpoint `/latest` esté habilitado para que el agente lo utilice.
+- Guarda la configuración.
 
 ### Paso 5 - Validar el uso del Tool en el Playground
 
@@ -87,12 +88,13 @@ paths:
 
 ## Consideraciones adicionales
 
-- Puedes crear múltiples Tools para que el agente interactúe con diferentes APIs o fuentes externas.
-- Los Tools se activan automáticamente cuando el agente detecta que la intención del usuario coincide con la funcionalidad del Tool.
-- Es posible editar o eliminar Tools desde la misma sección **Actions**.
+- El archivo OpenAPI puede alojar múltiples endpoints y ser versionado fácilmente.
+- Este enfoque permite documentar claramente el comportamiento de los Tools usados por el agente.
+- Si necesitas más control o lógica personalizada, considera usar **Custom Function** vía código.
 
 ## Recursos oficiales
 
-- Azure AI Foundry - Actions (Tools): https://learn.microsoft.com/en-us/azure/ai-foundry/how-to-tools
-- API utilizada en el ejemplo: https://exchangerate.host/#/#docs
+- Azure AI Foundry - Tools: https://learn.microsoft.com/en-us/azure/ai-foundry/how-to-tools
+- OpenAPI Specification: https://swagger.io/specification/
+- API pública usada en el ejemplo: https://exchangerate.host/#/#docs
 
