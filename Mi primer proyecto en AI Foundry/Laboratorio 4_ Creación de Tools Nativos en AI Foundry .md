@@ -21,7 +21,7 @@ En este laboratorio aprenderemos a crear y configurar un Tool nativo (Action) pa
 
 - Desplázate a la sección **Actions (0)**.
 - Haz clic en el botón **+ Add**.
-- En el panel lateral que se abre, selecciona el tipo de acción: **REST API**.
+- Selecciona la opción **OpenAPI 3.0 specified tool**.
 
 ![image](https://github.com/user-attachments/assets/cc96bbdc-37d8-43e6-9051-0fb686603761)
 
