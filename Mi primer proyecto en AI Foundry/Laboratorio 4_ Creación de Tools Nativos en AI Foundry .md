@@ -32,36 +32,74 @@ En este laboratorio aprenderemos a crear y configurar un Tool nativo (Action) pa
 - Sube tu archivo OpenAPI con la definición del endpoint REST que deseas invocar.
 - Por ejemplo, puedes utilizar la siguiente definición para una API pública de tasas de cambio:
 
-```yaml
-openapi: 3.0.0
-info:
-  title: Exchange Rate API
-  version: 1.0.0
-paths:
-  /latest:
-    get:
-      summary: Get latest exchange rates
-      description: Returns the latest exchange rates based on the USD.
-      parameters:
-        - in: query
-          name: base
-          schema:
-            type: string
-          required: false
-          description: Base currency (default is USD)
-        - in: query
-          name: symbols
-          schema:
-            type: string
-          required: false
-          description: Target currency symbols (comma-separated)
-      responses:
-        '200':
-          description: Successful response
-          content:
-            application/json:
-              schema:
-                type: object
+```json
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Exchange Rate API",
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "https://api.exchangerate.host"
+    }
+  ],
+  "paths": {
+    "/latest": {
+      "get": {
+        "summary": "Get latest exchange rates",
+        "description": "Returns the latest exchange rates based on the USD.",
+        "parameters": [
+          {
+            "name": "base",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Base currency (default is USD)"
+          },
+          {
+            "name": "symbols",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Target currency symbols (comma-separated)"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "base": {
+                      "type": "string"
+                    },
+                    "date": {
+                      "type": "string"
+                    },
+                    "rates": {
+                      "type": "object",
+                      "additionalProperties": {
+                        "type": "number"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 ```
 - Esta definición puede guardarse como exchange-rate-openapi.yaml.
   
