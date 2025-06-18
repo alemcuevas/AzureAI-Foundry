@@ -26,7 +26,9 @@ Los Safety Evaluators son fundamentales para entornos empresariales regulados.
 
 - Inicia sesión en Azure AI Studio: https://ai.azure.com
 - Accede al Workspace y Project creados.
-- En el menú lateral selecciona Evaluators.
+- En el menú lateral selecciona Evaluation.
+
+![image](https://github.com/user-attachments/assets/d96c634d-db83-4015-a5d7-2f5f5cf8a961)
 
 ## Paso 2 - Activar Groundedness Evaluator
 
@@ -40,6 +42,8 @@ Description: Valida consistencia factual basada en Knowledge Memory.
 
 - Selecciona la Knowledge Memory creada en el Lab 3: memoria-conocimiento-lab.
 - Guarda la configuración.
+
+![image](https://github.com/user-attachments/assets/8e0aca9d-2a05-48f7-8e95-2cd3c0ee989f)
 
 ## Paso 3 - Activar Content Safety Evaluator
 
