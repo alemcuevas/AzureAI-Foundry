@@ -86,29 +86,74 @@ Guarda este archivo como `eval_set.jsonl` y súbelo al contenedor del Storage.
 ## Paso 6 - Activar Groundedness Evaluator
 
 - Haz clic en Create Evaluator.
-- Selecciona Groundedness Evaluator.
 - Completa los campos:
-
-Evaluator Name: groundedness-evaluator-lab
-
-Description: Valida consistencia factual basada en Knowledge Memory.
-
-- Selecciona la Knowledge Memory creada en el Lab 3: memoria-conocimiento-lab.
-- Guarda la configuración.
 
 ![image](https://github.com/user-attachments/assets/8e0aca9d-2a05-48f7-8e95-2cd3c0ee989f)
 
-## Paso 7 - Activar Content Safety Evaluator
+![image](https://github.com/user-attachments/assets/b85bd2fb-2004-42b6-9cb6-135c56c5d215)
 
-- Haz clic en Create Evaluator.
-- Selecciona Content Safety Evaluator.
-- Completa los campos:
+![image](https://github.com/user-attachments/assets/b168f3fd-a59c-4c82-911d-6f773e0e6dc9)
 
-Evaluator Name: content-safety-lab
+## Paso 7 - Evaluar usando un dataset existente
 
-Description: Evaluador de contenido inapropiado para el laboratorio.
+- En el proceso de creación de evaluación, selecciona la opción:
+  **Evaluate an existing query-response dataset**
 
-- Habilita detección para:
+![image](https://github.com/user-attachments/assets/ea34b89f-74da-440f-8d4e-9a83056280d3)
+
+- Esto indica que ya tienes un archivo `.jsonl` con pares `input` y `expected_output`, como el que descargaste anteriormente (`eval_set.jsonl`).
+
+### Campos a completar:
+
+- **Eval set source**: Azure Blob Storage
+- **Eval set type**: Query-response
+- **Prompt field**: `input`
+- **Expected response field**: `expected_output`
+- **Scoring method**: Puedes elegir entre:
+  - `LLM-based` (recomendado para evaluación semántica)
+  - `Exact match` (recomendado solo si esperas respuestas exactas y controladas)
+- **Evaluation target**: El agente principal que estás evaluando
+
+### Opciones adicionales:
+
+- Puedes ajustar el número de ejemplos a evaluar (por ejemplo: evaluar solo 5 si estás haciendo pruebas).
+- Puedes habilitar la opción para guardar los resultados en el mismo Blob o en otro contenedor.
+
+## Paso 8 - Ejecutar la evaluación
+
+- Haz clic en **Run Evaluation**
+- Espera a que Foundry procese todos los ejemplos
+- Esto puede tardar varios minutos dependiendo del tamaño del eval set y del método de scoring
+
+## Paso 9 - Revisar los resultados
+
+- Al finalizar la ejecución, podrás revisar métricas como:
+  - **Accuracy**
+  - **Coverage**
+  - **Response quality**
+- Puedes hacer clic en cada fila para comparar la salida generada vs la esperada
+
+## Paso 10 - Iterar y mejorar
+
+- Si detectas errores o respuestas parciales:
+  - Ajusta las instrucciones del agente
+  - Mejora las acciones (Tools) o skills conectados
+  - Repite el proceso de evaluación con el mismo o un nuevo dataset
+
+## Recursos adicionales
+
+- Evaluations - Azure AI Foundry Docs: https://learn.microsoft.com/en-us/azure/ai-foundry/how-to-evaluation
+- Evaluating LLMs with LLMs (Azure AI): https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/evaluate
+
+
+
+
+
+
+
+
+
+Habilita detección para:
 
   - Hate
   - Violence
