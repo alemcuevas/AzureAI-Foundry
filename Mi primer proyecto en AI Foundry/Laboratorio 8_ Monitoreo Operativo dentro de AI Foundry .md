@@ -111,6 +111,20 @@ Este detalle permite auditar cada paso de la toma de decisión del agente.
 
 > Nota: Esta exportación requiere permisos adicionales en la suscripción de Azure.
 
+## Paso 8 - Configuración de Tracing
+
+![image](https://github.com/user-attachments/assets/472640ae-250d-4a4d-bafd-c24aa914eb43)
+
+Ve a Diagnostic settings en el portal de Azure:
+
+![image](https://github.com/user-attachments/assets/f9121b8e-c854-473c-a517-9b0ac118ce02)
+
+![image](https://github.com/user-attachments/assets/001b249f-597d-45dc-8ace-bfa5b39463bc)
+
+![image](https://github.com/user-attachments/assets/fd773b92-c784-45b1-baa4-362227cbf13e)
+
+![image](https://github.com/user-attachments/assets/9e7c8a5e-c583-486c-864f-135d0e80534e)
+
 ## Resultado esperado
 
 - Monitoreo operacional activo y validado.
