@@ -38,6 +38,8 @@ Los Safety Evaluators son fundamentales para entornos empresariales regulados.
 
 ![image](https://github.com/user-attachments/assets/6c55f069-ebd4-4bc8-9d2a-4e555628544e)
 
+![image](https://github.com/user-attachments/assets/4616744a-c105-4088-9a33-4db7e0a06cc7)
+
 ## Paso 2 - Crear el archivo de evaluación (`.jsonl`)
 
 Ejemplo básico del archivo:
@@ -57,6 +59,8 @@ Guarda este archivo como `eval_set.jsonl` y súbelo al contenedor del Storage.
 1. En el contenedor donde subiste el archivo, haz clic en **Generate SAS**
 2. Habilita lectura (`Read`) y establece una fecha de expiración
 3. Copia la URL completa con `?sig=...` incluido
+
+![image](https://github.com/user-attachments/assets/c45b63dc-d34f-48ce-aad6-832dc95c7893)
 
 ## Paso 4 - Crear la evaluación en Foundry
 
