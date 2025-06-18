@@ -37,6 +37,13 @@ El monitoreo es fundamental para la operación segura, auditada y gobernada de l
 
 ![image](https://github.com/user-attachments/assets/671cbf26-40c7-4259-957b-f652376c43dc)
 
+![image](https://github.com/user-attachments/assets/c49e67b3-8a79-4947-a321-2c39703a7d88)
+
+![image](https://github.com/user-attachments/assets/aa9fe94d-ee4e-42e7-9bb8-89deffa50aba)
+
+![image](https://github.com/user-attachments/assets/cd7c2861-26ab-4bbe-bcd3-c52aa735a0c0)
+
+![image](https://github.com/user-attachments/assets/dcb99bc5-ff48-40ac-b1a8-c797dc0e517f)
 
 ## Paso 2 - Visualización de ejecución de Agents
 
