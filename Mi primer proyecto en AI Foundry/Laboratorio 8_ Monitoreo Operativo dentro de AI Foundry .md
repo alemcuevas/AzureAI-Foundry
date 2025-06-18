@@ -33,6 +33,11 @@ El monitoreo es fundamental para la operación segura, auditada y gobernada de l
 - Accede al Workspace y Project creados.
 - En el menú lateral selecciona Monitor.
 
+![image](https://github.com/user-attachments/assets/dae6f3e1-4a8f-4835-9816-f2d3a3dfe91c)
+
+![image](https://github.com/user-attachments/assets/671cbf26-40c7-4259-957b-f652376c43dc)
+
+
 ## Paso 2 - Visualización de ejecución de Agents
 
 - Dentro de Monitor, selecciona la pestaña Agent Execution.
