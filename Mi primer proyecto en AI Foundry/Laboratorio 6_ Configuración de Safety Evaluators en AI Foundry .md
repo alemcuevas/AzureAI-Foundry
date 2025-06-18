@@ -90,7 +90,7 @@ Description: Valida consistencia factual basada en Knowledge Memory.
 
 ![image](https://github.com/user-attachments/assets/8e0aca9d-2a05-48f7-8e95-2cd3c0ee989f)
 
-## Paso 3 - Activar Content Safety Evaluator
+## Paso 7 - Activar Content Safety Evaluator
 
 - Haz clic en Create Evaluator.
 - Selecciona Content Safety Evaluator.
@@ -111,7 +111,7 @@ Description: Evaluador de contenido inapropiado para el laboratorio.
 - Ajusta los umbrales de severidad (se puede dejar default para el lab).
 - Guarda la configuración.
 
-## Paso 4 - Asociar Evaluators al Agent
+## Paso 8 - Asociar Evaluators al Agent
 
 - Accede al Agent primer-agent-gpt4o.
 - Edita la configuración del Agent.
@@ -122,7 +122,7 @@ Description: Evaluador de contenido inapropiado para el laboratorio.
 
 - Guarda los cambios.
 
-## Paso 5 - Pruebas de evaluación de groundedness
+## Paso 9 - Pruebas de evaluación de groundedness
 
 - Ingresa a Test Agent.
 - Realiza una consulta basada en la Knowledge Memory. Ejemplo:
@@ -135,7 +135,7 @@ Description: Evaluador de contenido inapropiado para el laboratorio.
 
 - Observa cómo el Groundedness Evaluator califica el nivel de groundedness de la respuesta.
 
-## Paso 6 - Pruebas de Content Safety Evaluator
+## Paso 10 - Pruebas de Content Safety Evaluator
 
 - Realiza pruebas con prompts problemáticos para validar los filtros:
 
