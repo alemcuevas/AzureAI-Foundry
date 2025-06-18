@@ -16,7 +16,6 @@ En este laboratorio aprenderemos a crear y conectar agentes secundarios (Connect
 
 - Desde la sección **Agents**, haz clic en **+ New agent**.
 - Asigna un nombre y propósito específico a cada agente. Ejemplos:
-  - `agente-clima` → responde preguntas sobre clima.
   - `agente-divisas` → responde consultas sobre tipo de cambio.
 - Asegúrate de asignar instrucciones claras y específicas para su dominio.
 
@@ -52,13 +51,20 @@ No respondas preguntas que no tengan que ver con divisas.
 - Opcional: define un nombre personalizado para cada skill si quieres que el agente los invoque por nombre.
 - Guarda los cambios.
 
+![image](https://github.com/user-attachments/assets/27f38936-093b-4cb9-8825-cf6005428502)
+
+![image](https://github.com/user-attachments/assets/c4e48f82-efba-4c43-bfaf-b5de1c7ed511)
+
+![image](https://github.com/user-attachments/assets/e4db5ff5-e115-422b-9201-9ed207fd03a4)
+
 ### Paso 4 - Validar en el Playground
 
 - Haz clic en **Try in playground** desde el agente principal.
 - Prueba preguntas que correspondan al dominio de los skills conectados. Ejemplos:
-  - “¿Cómo está el clima en Madrid hoy?” (esperado: lo responde el `agente-clima`)
   - “¿Cuánto vale un dólar en euros?” (esperado: lo responde el `agente-divisas`)
 - El agente principal debería delegar automáticamente la tarea al skill adecuado y devolver la respuesta final.
+
+![image](https://github.com/user-attachments/assets/55a27546-2850-44c6-a6c8-df7568977ca3)
 
 ## Consideraciones adicionales
 
