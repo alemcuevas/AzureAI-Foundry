@@ -1,0 +1,10 @@
+{'input': '¿Cuánto vale 1 dólar en euros?', 'expected_output': '1 USD equivale aproximadamente a 0.92 EUR.'}
+{'input': 'Convierte 100 pesos mexicanos a dólares.', 'expected_output': '100 MXN equivale aproximadamente a 5.80 USD.'}
+{'input': '¿Cuál es el tipo de cambio actual del euro al yen?', 'expected_output': '1 EUR equivale aproximadamente a 157.80 JPY.'}
+{'input': 'Convierte 250 EUR a USD.', 'expected_output': '250 EUR equivale aproximadamente a 270.50 USD.'}
+{'input': '¿Qué hora es en París?', 'expected_output': 'No puedo ayudarte con eso. Solo respondo preguntas sobre tasas de cambio.'}
+{'input': '¿Qué significa inflación?', 'expected_output': 'Lo siento, solo respondo preguntas sobre tasas de cambio entre monedas.'}
+{'input': 'Convierte 50 GBP a CAD.', 'expected_output': '50 GBP equivale aproximadamente a 87.20 CAD.'}
+{'input': '¿Cuánto es 1 USD en ARS?', 'expected_output': '1 USD equivale aproximadamente a 910.00 ARS.'}
+{'input': 'Dame la tasa de cambio entre INR y EUR.', 'expected_output': '1 INR equivale aproximadamente a 0.011 EUR.'}
+{'input': 'Convierte 75 CHF a USD.', 'expected_output': '75 CHF equivale aproximadamente a 82.50 USD.'}
