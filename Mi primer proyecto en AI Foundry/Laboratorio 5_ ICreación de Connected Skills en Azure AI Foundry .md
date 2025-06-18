@@ -20,6 +20,25 @@ En este laboratorio aprenderemos a crear y conectar agentes secundarios (Connect
   - `agente-divisas` → responde consultas sobre tipo de cambio.
 - Asegúrate de asignar instrucciones claras y específicas para su dominio.
 
+```
+Eres un agente especializado en tasas de cambio y conversión de divisas. Solo respondes preguntas relacionadas con conversiones entre monedas, tipo de cambio actual y equivalencias monetarias.
+
+Debes responder de forma clara, precisa y con el valor actualizado de la conversión solicitado. Si el usuario pregunta algo que no está relacionado con divisas, indica que no puedes ayudar con eso.
+```
+
+![image](https://github.com/user-attachments/assets/7ccb8846-3cb2-4127-888c-7e876f38826d)
+
+Ejemplos de lo que sí puedes responder:
+- ¿Cuánto vale un dólar en euros?
+- Convierte 100 pesos mexicanos a dólares.
+- ¿Cuál es el tipo de cambio actual entre el euro y el yen?
+
+No respondas preguntas que no tengan que ver con divisas.
+
+![image](https://github.com/user-attachments/assets/d8aec19b-a8d6-4044-8954-e98f0c1d379c)
+
+![image](https://github.com/user-attachments/assets/9783b038-bbe6-4f90-8944-3e0c7301e8d2)
+
 ### Paso 2 - Acceder al agente principal
 
 - En la sección **Agents**, selecciona tu agente principal.
