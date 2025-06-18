@@ -27,12 +27,16 @@ Los Safety Evaluators son fundamentales para entornos empresariales regulados.
 1. Ve a [https://portal.azure.com](https://portal.azure.com)
 2. Busca **Storage accounts** > haz clic en **+ Create**
 3. Llena los campos:
-   - Nombre: `evalfoundrystorage` (o similar)
-   - Tipo: `StorageV2`
+   - Nombre: `evalfoundrystorage` (agrega tu identificador)
+   - Primary Service: `ADLS Gen2`
    - Redundancia: `LRS`
    - Ubicación: la misma región donde tienes Foundry
 4. Una vez creado, entra al recurso y crea un **contenedor Blob** llamado `evals`
 5. Sube ahí el archivo `eval_set.jsonl`
+
+![image](https://github.com/user-attachments/assets/6749fa6d-0541-4d39-b3ad-8fc3040c745f)
+
+![image](https://github.com/user-attachments/assets/6c55f069-ebd4-4bc8-9d2a-4e555628544e)
 
 ## Paso 2 - Crear el archivo de evaluación (`.jsonl`)
 
