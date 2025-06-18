@@ -106,6 +106,8 @@ Habla de forma educada, breve y con instrucciones claras. Si la pregunta no estÃ
 
 ![image](https://github.com/user-attachments/assets/889175fd-a56f-4f91-a30d-b5a553d91096)
 
+![image](https://github.com/user-attachments/assets/f0e3dada-e932-496b-be78-2bbc298e80a5)
+
 ---
 
 ### âœ… Resultado esperado
